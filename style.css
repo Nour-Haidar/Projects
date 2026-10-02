@@ -1,0 +1,41 @@
+.navbar .nav-link{
+    color: rgba(211, 202, 213, 0.76);
+    transition: 0.3s;
+
+}
+.navbar .nav-link:hover{
+    color: #d1cfd1fb;
+}
+.navbar .nav-link.active{
+    color: #2b0331e1;
+}
+.navbar{
+    background-color: rgba(135, 95, 135, 0.285);
+}
+.hero-section{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(images/nourr.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-section{
+    background: linear-gradient(rgba(105, 86, 110, 0.74),rgba(155, 146, 156, 0.805));
+}
+.protfolio-section {
+    background-color: #f0ebf0;
+}
+
+.project-card {
+    background-color: rgba(171, 112, 171, 0.4);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.project-card i {
+    color: #744d8b;
+}
